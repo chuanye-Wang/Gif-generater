@@ -1,2 +1,2 @@
 # Gif-generater
-A simple git creater utilizing Python
+A simple gif creater utilizing Python
