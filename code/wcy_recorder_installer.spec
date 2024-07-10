@@ -3,7 +3,7 @@
 block_cipher = None
 
 a = Analysis(
-    ['v16.py'],
+    ['dev/code/v17.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -25,7 +25,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='wcy gif recorder',
+    name='GIF v1.1',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -33,5 +33,5 @@ exe = EXE(
     upx_exclude=[],
     runtime_tmpdir=None,
     console=False,
-    icon='my_icon.ico'
+    icon='dev/icon/my_icon.ico'
 )
